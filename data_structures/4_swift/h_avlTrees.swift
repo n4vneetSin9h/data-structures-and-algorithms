@@ -1,4 +1,4 @@
-class AVLNode<T> {
+class AVLNode<T: Comparable> {
     var value: T
     var height: Int
     var left: AVLNode?
@@ -13,58 +13,113 @@ class AVLNode<T> {
 class AVLTree<T: Comparable> {
     private var root: AVLNode<T>?
 
-    // MARK: - Insertion
-
-    /// Insert a value into the AVL tree.
-    func insert(value: T) {
-        root = insertRec(root, value)
-    }
-
-    private func insertRec(_ node: AVLNode<T>?, _ value: T) -> AVLNode<T> {
-        // ... Implementation of AVL insertion ...
-    }
-
-    // MARK: - Deletion
-
-    /// Delete a value from the AVL tree.
-    func delete(value: T) {
-        root = deleteRec(root, value)
-    }
-
-    private func deleteRec(_ node: AVLNode<T>?, _ value: T) -> AVLNode<T>? {
-        // ... Implementation of AVL deletion ...
-    }
-
-    // MARK: - Rotation
-
-    /// Perform a left rotation at the given node.
-    private func leftRotate(_ y: AVLNode<T>?) -> AVLNode<T>? {
-        // ... Implementation of left rotation ...
-    }
-
-    /// Perform a right rotation at the given node.
-    private func rightRotate(_ x: AVLNode<T>?) -> AVLNode<T>? {
-        // ... Implementation of right rotation ...
-    }
-
-    // MARK: - Height and Balance Factor
-
-    /// Get the height of the node.
+    // Get the height of a node
     private func height(_ node: AVLNode<T>?) -> Int {
         return node?.height ?? 0
     }
 
-    /// Get the balance factor of the node.
-    private func getBalance(_ node: AVLNode<T>?) -> Int {
-        // ... Implementation of balance factor calculation ...
+    // Update the height of a node based on its children's heights
+    private func updateHeight(_ node: AVLNode<T>) {
+        node.height = max(height(node.left), height(node.right)) + 1
     }
 
-    // MARK: - Traversals
-
-    /// Perform in-order traversal of the AVL tree.
-    func inorderTraversal() -> [T] {
-        // ... Implementation of in-order traversal ...
+    // Get the balance factor for a node (difference in height of left and right subtrees)
+    private func balanceFactor(_ node: AVLNode<T>) -> Int {
+        return height(node.left) - height(node.right)
     }
 
-    // ... Add more AVL tree operations as needed ...
+    // Rotate a node to the left
+    private func rotateLeft(_ y: AVLNode<T>) -> AVLNode<T> {
+        let x = y.right!
+        let T2 = x.left
+
+        x.left = y
+        y.right = T2
+
+        updateHeight(y)
+        updateHeight(x)
+
+        return x
+    }
+
+    // Rotate a node to the right
+    private func rotateRight(_ x: AVLNode<T>) -> AVLNode<T> {
+        let y = x.left!
+        let T2 = y.right
+
+        y.right = x
+        x.left = T2
+
+        updateHeight(x)
+        updateHeight(y)
+
+        return y
+    }
+
+    // Balance the tree by rotating nodes if needed
+    private func balance(_ node: AVLNode<T>) -> AVLNode<T> {
+        let balanceFactor = self.balanceFactor(node)
+
+        if balanceFactor > 1 {
+            if let leftChild = node.left, balanceFactor(leftChild) < 0 {
+                node.left = rotateLeft(leftChild)
+            }
+            return rotateRight(node)
+        }
+
+        if balanceFactor < -1 {
+            if let rightChild = node.right, balanceFactor(rightChild) > 0 {
+                node.right = rotateRight(rightChild)
+            }
+            return rotateLeft(node)
+        }
+
+        return node
+    }
+
+    // Recursive function to insert a value into the AVL tree
+    private func insert(_ node: AVLNode<T>?, value: T) -> AVLNode<T> {
+        guard let node = node else {
+            return AVLNode(value: value)
+        }
+
+        if value < node.value {
+            node.left = insert(node.left, value: value)
+        } else {
+            node.right = insert(node.right, value: value)
+        }
+
+        updateHeight(node)
+
+        return balance(node)
+    }
+
+    // Public function to insert a value into the AVL tree
+    func insert(value: T) {
+        root = insert(root, value: value)
+    }
+
+    // Recursive inorder traversal and print the values
+    private func inorderTraversal(_ node: AVLNode<T>?, visit: (T) -> Void) {
+        guard let node = node else { return }
+
+        inorderTraversal(node.left, visit: visit)
+        visit(node.value)
+        inorderTraversal(node.right, visit: visit)
+    }
+
+    // Public function to perform inorder traversal and print the values
+    func inorderTraversal(visit: (T) -> Void) {
+        inorderTraversal(root, visit: visit)
+    }
 }
+
+// Example usage
+let avlTree = AVLTree<Int>()
+avlTree.insert(value: 10)
+avlTree.insert(value: 5)
+avlTree.insert(value: 15)
+avlTree.insert(value: 3)
+avlTree.insert(value: 7)
+
+avlTree.inorderTraversal { print($0) }
