@@ -53,10 +53,42 @@ The time complexity of the Binary Search Algorithm is analyzed based on the numb
 
 The space complexity of the Binary Search Algorithm is constant, denoted as O(1). This is because the algorithm uses a fixed amount of additional memory to store variables and pointers, regardless of the size of the input array.
 
-## Graphs
+## SWIFT
 
-To visualize the time complexity graph, plot the number of comparisons (y-axis) against the input size `n` (x-axis) in a logarithmic scale (base 2). You will observe a logarithmic curve, demonstrating the O(log n) time complexity.
+In this code:
 
-For space complexity, a simple horizontal line at y = 1 (constant) represents the O(1) space complexity.
+- The binarySearch function takes a sorted array of a generic type T that conforms to the Comparable protocol and a target element target.
+- It uses a while loop to iteratively narrow down the search range by adjusting the left and right pointers based on comparisons.
+- If the target is found, it returns the index of the target element. If the target is not present, it returns nil.
+- You can modify the sortedArray and target in the example usage to test different scenarios.
 
-If you have a graph plotting tool or software, you can easily plot these complexities to visualize the growth rate of the algorithm.
+```swift
+func binarySearch<T: Comparable>(_ array: [T], target: T) -> Int? {
+    var left = 0
+    var right = array.count - 1
+    
+    while left <= right {
+        let mid = left + (right - left) / 2
+        
+        if array[mid] == target {
+            return mid
+        } else if array[mid] < target {
+            left = mid + 1
+        } else {
+            right = mid - 1
+        }
+    }
+    
+    return nil
+}
+
+// Example usage
+let sortedArray = [1, 3, 5, 7, 9, 11, 13, 15, 17]
+if let targetIndex = binarySearch(sortedArray, target: 11) {
+    print("Element found at index: \(targetIndex)")
+} else {
+    print("Element not found in the array.")
+}
+```
+
+
