@@ -2,7 +2,7 @@
 
 ### Searching:
 - [Binary Search](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/a_binary_search.md)
-- Linear Search
+- [Linear Search](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/b_linear_search.md)
 - Interpolation Search
 - Jump Search
 - Exponential Search
