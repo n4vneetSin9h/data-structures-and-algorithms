@@ -45,9 +45,9 @@ The space complexity of the Linear Search Algorithm is constant, denoted as O(1)
 
 ## Functionality
 
-- The linearSearch function takes an array of a generic type T and a target element target.
+- The `linearSearch` function takes an array of a generic type `T` and a target element target.
 - It iterates through the array, comparing each element with the target.
-- You can modify the array and target in the example usage to test different scenarios.
+- You can modify the `array` and `target` in the example usage to test different scenarios.
 
 
 # Code
