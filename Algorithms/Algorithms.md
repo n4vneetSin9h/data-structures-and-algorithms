@@ -1,7 +1,7 @@
 ## General Algorithms:
 
 ### Searching:
-- [Binary Search](https://github.com/n4vneetSin9h/swift-programming/tree/main/Algorithms/Searching/Binary%20Search)
+- [Binary Search](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/a_binary_search.md)
 - Linear Search
 - Interpolation Search
 - Jump Search
