@@ -1,4 +1,4 @@
-## General Algorithms:
+## Algorithms (C++, Rust, Python, Swift, Kotlin, Go, Java, JavaScript, C# & Ruby):
 
 ## Sorting Algorithms
 1. **Bubble Sort**
@@ -14,11 +14,44 @@
 
 ## Searching Algorithms
 11. [**Linear Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/b_linear_search.md)
+- [C++](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/b_linear_search.md#c)
+- [Rust](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/b_linear_search.md#rust)
+- [Python](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/b_linear_search.md#python)
+- [Swift](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/b_linear_search.md#swift)
+- [Kotlin](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/b_linear_search.md#kotlin)
+- [Go](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/b_linear_search.md#go)
+- [Java](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/b_linear_search.md#java)
+- [JavaScript](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/b_linear_search.md#javascript)
+- [C#](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/b_linear_search.md#c-1)
+- [Ruby](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/b_linear_search.md#ruby)
+
 12. [**Binary Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/a_binary_search.md)
+- [C++](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/a_binary_search.md#c)
+- [Rust](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/a_binary_search.md#rust)
+- [Python](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/a_binary_search.md#python)
+- [Swift](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/a_binary_search.md#swift)
+- [Kotlin](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/a_binary_search.md#kotlin)
+- [Go](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/a_binary_search.md#go)
+- [Java](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/a_binary_search.md#java)
+- [JavaScript](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/a_binary_search.md#javascript)
+- [C#](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/a_binary_search.md#c-1)
+- [Ruby](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/a_binary_search.md#ruby)
+
 13. **Exponential Search**
 14. **Ternary Search**
 15. **Jump Search**
-16. [**Interpolation Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/b_linear_search.md)
+16. [**Interpolation Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/c_interpolation_search.md)
+- [C++](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/c_interpolation_search.md#c)
+- [Rust](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/c_interpolation_search.md#rust)
+- [Python](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/c_interpolation_search.md#python)
+- [Swift](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/c_interpolation_search.md#swift)
+- [Kotlin](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/c_interpolation_search.md#kotlin)
+- [Go](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/c_interpolation_search.md#go)
+- [Java](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/c_interpolation_search.md#java)
+- [JavaScript](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/c_interpolation_search.md#javascript)
+- [C#](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/c_interpolation_search.md#c-1)
+- [Ruby](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/c_interpolation_search.md#ruby)
+
 17. **Hash-Based Search**
 18. **Depth-First Search (DFS)**
 19. **Breadth-First Search (BFS)**
