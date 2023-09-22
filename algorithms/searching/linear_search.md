@@ -28,27 +28,15 @@ LinearSearch(array, target):
 
 ## Time Complexity Analysis
 
-The time complexity of the Linear Search Algorithm is analyzed based on the number of comparisons made during the search. Let's denote the length of the array as `n`.
-
 - **Best Case**: O(1)
-  - The best case occurs when the target element is found at the first comparison.
 
 - **Worst Case**: O(n)
-  - The worst case occurs when the target element is not present in the array, and we have to traverse the entire array.
 
 - **Average Case**: O(n)
-  - The average case is also O(n) when the target element is equally likely to be in any position in the array.
 
 ## Space Complexity Analysis
 
-The space complexity of the Linear Search Algorithm is constant, denoted as O(1). This is because the algorithm uses a fixed amount of additional memory to store variables, regardless of the size of the input array.
-
-## Functionality
-
-- The `linearSearch` function takes an array of a generic type `T` and a target element target.
-- It iterates through the array, comparing each element with the target.
-- You can modify the `array` and `target` in the example usage to test different scenarios.
-
+The space complexity of the Linear Search Algorithm is constant, denoted as O(1).
 
 # Code
 

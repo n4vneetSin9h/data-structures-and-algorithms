@@ -37,26 +37,15 @@ InterpolationSearch(array, target):
 
 ## Time Complexity Analysis
 
-The time complexity of the Interpolation Search Algorithm is analyzed based on the number of comparisons made during the search. Let's denote the length of the array as `n`.
-
 - **Best Case**: O(1)
-  - The best case occurs when the target element is found at the estimated position in the first comparison.
 
 - **Worst Case**: O(n)
-  - The worst case occurs when the array elements are not uniformly distributed, resulting in a large number of comparisons.
 
 - **Average Case**: O(log (log n))
-  - The average case can be approximated to O(log(log n)) for uniformly distributed elements.
 
 ## Space Complexity Analysis
 
-The space complexity of the Interpolation Search Algorithm is constant, denoted as O(1). This is because the algorithm uses a fixed amount of additional memory to store variables, regardless of the size of the input array.
-
-## Functionality
-
-The `interpolationSearch` function takes a sorted array of a numeric type and a target element to search for.
-It uses an interpolation formula to estimate the position of the target element and adjusts the search range accordingly.
-You can modify the `sortedArray` and `target` in the example usage to test different scenarios.
+The space complexity of the Interpolation Search Algorithm is constant, denoted as O(1).
 
 # Code
 

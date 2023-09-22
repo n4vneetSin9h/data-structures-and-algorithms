@@ -1,63 +1,61 @@
-# Binary Search Algorithm
+# Hash-Based Search Algorithm
 
 ## Description
 
-Binary Search is an efficient algorithm for finding a specific element within a sorted array or list of elements. It works by repeatedly dividing in half the portion of the array that could contain the target value, ultimately narrowing down the search until the target is found or determined to be not in the array.
+Hash-based search algorithms utilize hash tables or hash maps for efficient key-value pair lookups. Hash tables use a hash function to compute an index into an array of buckets or slots, from which the correct value can be found.
 
 ## Steps
 
-1. Start with defining pointers `left` and `right` pointing to the start and end of the array, respectively.
-2. Calculate the mid index as `mid = (left + right) / 2`.
-3. Compare the element at the mid index with the target:
-   - If they match, the target is found, and we return the mid index.
-   - If the target is less than the element at the mid index, update `right = mid - 1` to search in the left half.
-   - If the target is greater than the element at the mid index, update `left = mid + 1` to search in the right half.
-4. Repeat steps 2 and 3 until `left` is greater than `right`, indicating that the target is not present in the array.
+1. Choose a hash function to map keys to indices in the hash table.
+2. Hash the key to obtain the hash value.
+3. Use the hash value to determine the index (bucket) in the hash table.
+4. Access the bucket and retrieve the associated value.
 
 ## Pseudo Code
 
+HashTable data structure includes key-value pairs and a hash function to compute indices.
+
 ```plaintext
-BinarySearch(array, target):
-    left = 0
-    right = length(array) - 1
+class HashTable:
+    def __init__(self):
+        initialize the hash table
 
-    while left <= right:
-        mid = left + (right - left) / 2
+    def hash_function(self, key):
+        compute hash value based on the key
 
-        if array[mid] == target:
-            return mid
-        else if array[mid] < target:
-            left = mid + 1
-        else:
-            right = mid - 1
+    def insert(self, key, value):
+        hash the key
+        determine the index using the hash value
+        store the key-value pair at the determined index
 
-    return -1  // Target not found
+    def search(self, key):
+        hash the key
+        determine the index using the hash value
+        retrieve the value associated with the key from the determined index
 ```
 
-# Binary Search Algorithm: Time and Space Complexity Analysis
+# Hash-Based Search Algorithm: Time and Space Complexity Analysis
 
 ## Time Complexity Analysis
 
-The time complexity of the Binary Search Algorithm is analyzed based on the number of comparisons made during the search. Let's denote the length of the array as `n`.
+- **Best Case**:
+- Insertion: O(1) - In the best-case scenario where the hash function distributes keys evenly across the buckets, insertion takes O(1) time as there are no collisions.
+- Search: O(1) - In the best-case scenario with a perfect hash function and no collisions, searching for a key takes O(1) time.
+- Deletion: O(1) - Similarly, in the best-case scenario, deletion also takes O(1) time with no collisions.
 
-- **Best Case**: O(1)
-  - The best case occurs when the target element is found at the middle of the array in the first comparison.
+- **Worst Case**:
+- Insertion: O(n) - In the worst-case scenario, where all keys hash to the same index (e.g., poor hash function leading to frequent collisions), each insertion may take O(n) time as it needs to handle collisions.
+- Search: O(n) - In the worst-case scenario with frequent collisions, searching for a key may also take O(n) time due to traversing through the collided elements.
+Deletion: O(n) - Similar to search, deletion may take O(n) time in the worst-case due to collisions.
 
-- **Worst Case**: O(log n)
-  - The worst case occurs when the target element is not present in the array, and we have to perform log₂(n) comparisons to determine this, effectively halving the search space at each step.
-
-- **Average Case**: O(log n)
-  - The average case is also O(log n) assuming a random distribution of the target element.
+- **Average Case**:
+- Insertion: O(1) - On average, assuming a good hash function and an evenly distributed set of keys, insertion takes O(1) time considering occasional collisions.
+- Search: O(1) - On average, with a well-distributed set of keys and a good hash function, searching takes O(1) time accounting for occasional collisions.
+- Deletion: O(1) - Similarly, on average, deletion takes O(1) time considering a good hash function and an evenly distributed set of keys.
 
 ## Space Complexity Analysis
 
-The space complexity of the Binary Search Algorithm is constant, denoted as O(1). This is because the algorithm uses a fixed amount of additional memory to store variables and pointers, regardless of the size of the input array.
-
-## Functionality
-
-- The binarySearch function takes a sorted array of a generic type T that conforms to the Comparable protocol and a target element target.
-- It uses a while loop to iteratively narrow down the search range by adjusting the left and right pointers based on comparisons.
-- You can modify the sortedArray and target in the example usage to test different scenarios.
+O(n + m) - In terms of space, where n is the number of elements (key-value pairs) and m is the capacity of the hash table, the space complexity is generally O(n + m). This accounts for storing the elements (O(n)) and the hash table itself (O(m)).
 
 # Code
 
