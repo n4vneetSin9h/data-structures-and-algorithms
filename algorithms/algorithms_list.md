@@ -13,7 +13,7 @@
 10. **Shell Sort**
 
 ## Searching Algorithms
-11. [**Linear Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/linear_search.md)
+11. [**Linear Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/linear_search.md)
 - [C++](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/linear_search.md#c)
 - [Rust](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/linear_search.md#rust)
 - [Python](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/linear_search.md#python)
@@ -25,7 +25,7 @@
 - [C#](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/linear_search.md#c-1)
 - [Ruby](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/linear_search.md#ruby)
 
-12. [**Binary Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/binary_search.md)
+12. [**Binary Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/binary_search.md)
 - [C++](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/binary_search.md#c)
 - [Rust](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/binary_search.md#rust)
 - [Python](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/binary_search.md#python)
@@ -37,7 +37,7 @@
 - [C#](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/binary_search.md#c-1)
 - [Ruby](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/binary_search.md#ruby)
 
-13. [**Exponential Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/exponential_search.md)
+13. [**Exponential Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/exponential_search.md)
 - [C++](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/exponential_search.md#c)
 - [Rust](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/exponential_search.md#rust)
 - [Python](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/exponential_search.md#python)
@@ -49,7 +49,7 @@
 - [C#](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/exponential_search.md#c-1)
 - [Ruby](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/exponential_search.md#ruby)
 
-14. [**Ternary Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/ternary_search.md)
+14. [**Ternary Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/ternary_search.md)
 - [C++](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/ternary_search.md#c)
 - [Rust](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/ternary_search.md#rust)
 - [Python](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/ternary_search.md#python)
@@ -61,7 +61,7 @@
 - [C#](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/ternary_search.md#c-1)
 - [Ruby](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/ternary_search.md#ruby)
 
-15. [**Jump Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/jump_search.md)
+15. [**Jump Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/jump_search.md)
 - [C++](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/jump_search.md#c)
 - [Rust](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/jump_search.md#rust)
 - [Python](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/jump_search.md#python)
@@ -85,7 +85,7 @@
 - [C#](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/c_interpolation_search.md#c-1)
 - [Ruby](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/c_interpolation_search.md#ruby)
 
-17. [**Hash-Based Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/hash_based_search.md)
+17. [**Hash-Based Search**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/hash_based_search.md)
 - [C++](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/hash_based_search.md#c)
 - [Rust](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/hash_based_search.md#rust)
 - [Python](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/hash_based_search.md#python)
@@ -97,7 +97,7 @@
 - [C#](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/hash_based_search.md#c-1)
 - [Ruby](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/hash_based_search.md#ruby)
 
-18. [**Depth-First Search (DFS)**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/depth_first_search.md)
+18. [**Depth-First Search (DFS)**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/depth_first_search.md)
 - [C++](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/depth_first_search.md#c)
 - [Rust](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/depth_first_search.md#rust)
 - [Python](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/depth_first_search.md#python)
@@ -109,7 +109,7 @@
 - [C#](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/depth_first_search.md#c-1)
 - [Ruby](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/depth_first_search.md#ruby)
 
-19. [**Breadth-First Search (BFS)**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/breadth_first_search.md)
+19. [**Breadth-First Search (BFS)**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/breadth_first_search.md)
 - [C++](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/breadth_first_search.md#c)
 - [Rust](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/breadth_first_search.md#rust)
 - [Python](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/breadth_first_search.md#python)
@@ -121,7 +121,7 @@
 - [C#](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/breadth_first_search.md#c-1)
 - [Ruby](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/breadth_first_search.md#ruby)
 
-20. [**Dijkstra's Algorithm**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/Algorithms/Searching/dijkstra_search.md)
+20. [**Dijkstra's Algorithm**](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/dijkstra_search.md)
 - [C++](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/dijkstra_search.md#c)
 - [Rust](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/dijkstra_search.md#rust)
 - [Python](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/searching/dijkstra_search.md#python)
