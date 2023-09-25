@@ -1,6 +1,6 @@
 # Data Structures and Algorithms in Various Programming Languages
 
-This repository contains around [290+ algorithms](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/algorithms_list.md) & implementations of various data structures in C++, Rust, Python, Swift, Kotlin, and Go.
+This repository contains around [290+ algorithms](https://github.com/n4vneetSin9h/data-structures-and-algorithms/blob/main/algorithms/algorithms_list.md)(still working on it) & implementations of various data structures in C++, Rust, Python, Swift, Kotlin, and Go.
 
 ## Data Structures
 
